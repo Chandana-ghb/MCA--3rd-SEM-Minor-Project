@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link rel="icon" href="./Assets/SPMVV_logo.jpeg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Styles/Dashboard.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid con">
+        </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 admin-page">
+                       
+                        <button onclick="mentor()"  class="mentor">Mentor</button>
+                            <div id="mentor_m">
+                            <div class="a_mentor" id="nameField1"> <a href="#" class="mlink" onclick="S_mentee()" ><p id="mentorlist1" class="mentorlist disable" ></p></a></div>
+                            <div class="a_mentor" id="nameField2">   <a href="#" class="mlink" onclick="M_mentee()"><p id="mentorlist2" class="mentorlist disable"></p></a></div>
+                            <div class="a_mentor" id="nameField3"> <a href="#" class="mlink"  onclick="K_mentee()"><p id="mentorlist3" class="mentorlist disable"></p></a></div>
+                            <div class="a_mentor" id="nameField4"> <a href="#" class="mlink"  onclick="V_mentee()"><p id="mentorlist4" class="mentorlist disable"></p></a></div>
+                            <div class="a_mentor" id="nameField5">  <a href="#" class="mlink" onclick="B_mentee()"><p id="mentorlist5" class="mentorlist disable"></p></a></div>
+                            <div class="a_mentor" id="nameField6"> <a href="#" class="mlink" onclick="Muthu_mentee()"><p id="mentorlist6" class="mentorlist disable"></p></a></div>
+                            <div class="a_mentor" id="nameField7"> <a href="#" class="mlink"  onclick="P_mentee()"><p id="mentorlist7" class="mentorlist disable"></p></a></div>
+                            <div class="a_mentor" id="nameField8"> <a href="#" class="mlink"  onclick="N_mentee()"><p id="mentorlist8" class="mentorlist disable"></p></a></div>
+                            <div class="a_mentor" id="nameField9"> <a href="#" class="mlink" onclick="C_mentee()"><p id="mentorlist9" class="mentorlist disable"></p></a></div>
+                            </div>
+                        <button onclick="mentee()" class="mentee">Mentee</button>
+                            <div id="mentee_m">
+                                <a href="./Application_Form.html" class="menteelink" onclick="application()"><p id="application" class="mentee_prb disable"></p></a>
+                                <a href="./Leave_Form.html" class="menteelink" onclick="leave()"><p id="leave_form" class="mentee_prb disable" ></p></a>
+                                <a href="./Minor.html" class="menteelink" onclick="minor()"><p id="minor_project" class="mentee_prb disable"></p></a>
+                                <a href="./Minor.html" class="menteelink" onclick="major()"><p id="major_project" class="mentee_prb disable"></p></a>
+                               
+                            </div>
+                    </div>
+                    <div class="col-md-10 ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="main">
+                                    <h2 id="mentees"></h2>
+                                    <div class="menteelist" >
+                                       <a href="" class="mlink"> <p id="menteelist1"></p></a>
+                                       <a href="" class="mlink"><p id="menteelist2"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist3"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist4"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist5"></p></a>
+                                        <a href="" class="mlink"> <p id="menteelist6"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist7"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist8"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist9"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist10"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist11"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist12"></p></a>
+                                        <a href="" class="mlink"><p id="menteelist13"></p></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                               
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>     
+       <script src="./Script/Dashboard.js"></script>
+       <script src="./Script/Registration_Form.js"></script>
+
+    </body>
+</html>
